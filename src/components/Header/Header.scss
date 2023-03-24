@@ -1,0 +1,29 @@
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1rem;
+  background-color: white;
+  padding: 1rem 0;
+
+  .left-header {
+    display: flex;
+    align-items: center;
+    h2 {
+      border-right: 2px solid #dbdbdd;
+      padding-right: 1rem;
+    }
+    p {
+      padding: 0 1rem;
+    }
+  }
+  .right-header {
+    display: flex;
+    p {
+      padding: 0 1rem;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.left {
+  padding: 3rem;
+  .left-content {
+    padding: 1rem 4rem;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    line-height: 2rem;
+    img {
+      border-radius: 50%;
+    }
+    .left-content-headline {
+      font-size: large;
+    }
+    .left-content-paragraph1 {
+    }
+    .left-content-paragraph2 {
+      font-weight: 800;
+      padding: 0.1rem 2rem;
+      display: inline-block;
+      border-radius: 6249.938rem;
+    }
+    .left-content-paragraph3 {
+      font-size: 12px;
+    }
+  }
+}

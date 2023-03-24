@@ -1,0 +1,43 @@
+.cta-content {
+  display: block;
+  background-image: url("https://www.exterminatorspros.com/lp/assets/img/pestcontrol.jpg");
+  padding: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 0rem auto;
+  top: 0;
+  line-height: 4rem;
+  text-align: center;
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.375;
+    margin-bottom: 1.25rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.375;
+  }
+  p {
+    line-height: 1.625;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .cta-btn {
+    color: #fff;
+    background-color: #d01b34;
+    font-weight: 800;
+    padding: 1rem 2rem;
+    display: inline;
+    margin: 1.5rem 0 0 0;
+    text-decoration: none;
+    border-radius: 90px;
+  }
+  .cta-list {
+    ul {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
