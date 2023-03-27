@@ -1,22 +1,14 @@
-.footer-content {
-  margin-top: 0;
-  padding: 5rem;
-  .footer-1 {
-    h6 {
-      letter-spacing: 0.05em;
-      font-size: 0.875rem;
-      text-transform: uppercase;
-      font-weight: 800;
-      text-decoration: none;
-    }
-    p {
-      font-size: 0.75rem;
-    }
-  }
-  .footer-2 {
-    p {
-      font-size: 0.75rem;
-      padding-top: 3rem;
+footer {
+  font-size: 0.75rem;
+  position: relative;
+  padding: 4rem 0;
+  .container {
+    max-width: 64rem;
+    padding: 0 2.5rem;
+    .row {
+      .discalimer {
+        padding-top: 2rem;
+      }
     }
   }
 }

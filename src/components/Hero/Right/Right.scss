@@ -22,6 +22,11 @@
       .left {
         width: 100%;
         order: 2;
+        @media (min-width: 764px) {
+          order: 1;
+          width: 40%;
+        }
+
         .left-content {
           margin: 2rem 0;
           padding: 2.5rem 1.5rem;
@@ -42,9 +47,14 @@
           }
         }
       }
-      .right-content{
+      .right-content {
         order: 1;
         width: 100%;
+        @media (min-width: 764px) {
+          order: 2;
+          width: 60%;
+        }
+
         .right {
           .right-heading {
             margin-top: 3rem;
@@ -58,11 +68,11 @@
               margin-top: 1rem;
               display: flex;
               flex-wrap: wrap;
-              font-size: .85rem;
+              font-size: 0.85rem;
               line-height: 2;
               flex-wrap: wrap;
               align-items: center;
-              gap:10px;
+              gap: 10px;
               li {
                 flex: 0 0 auto;
                 width: 45%;
