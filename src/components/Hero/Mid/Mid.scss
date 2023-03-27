@@ -1,35 +1,158 @@
-.mid {
+.hero-section {
   display: block;
   background-image: url("https://www.exterminatorspros.com/lp/assets/img/pestcontrol.jpg");
-  padding: 17rem;
+  padding: 6rem 0;
   background-repeat: no-repeat;
+  background-position: top center;
   background-size: cover;
   display: block;
   margin: 0 auto;
-  top: 0;
-  border-radius: 1rem;
-  line-height: 4rem;
-  @media (max-width: 700px) {
-    .mid1 {
-      font-size: small;
-    }
+  position: relative;
+  @media (min-width:1024px) {
+    max-height: calc(100vh - 20px);
+    background-image: none;
   }
-
-  .mid2 {
-    h1 {
-      font-weight: 800;
-      padding: 1rem 2rem;
-      display: inline-block;
-      border-radius: 6249.938rem;
-    }
-  }
-  .mid3 {
-    .mid3-div {
-      display: flex;
-      .mid3-div-p {
-        list-style-type: none;
-        font-size: 18px;
+  .container {
+    position: relative;
+    z-index: 2;
+    .row {
+      @media(min-width:768px) {
+        min-height: 80vh;
+        align-items: center;
       }
+      .mid {
+        width: 100%;
+        .mid1 {
+          h1 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            line-height: 1.375;
+            @media(min-width:768px) {
+              font-size: 2.25rem;
+              line-height: 1.375;
+            }
+            @media(min-width:1024px) {
+              font-size: 2.5rem;
+              line-height: 1.375;
+              margin-bottom: 1.25rem;
+            }
+          }
+          h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            @media(min-width:768px) {
+              font-size: 1.5rem;
+              line-height: 1.375;
+            }
+          }
+          p {
+            font-size: 1rem;
+            font-weight: 300;
+            @media(min-width:768px) {
+              line-height: 1.625;
+              font-size: 1.25rem;
+            }
+            @media(min-width:1024px) {
+              line-height: 1.625;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .mid2 {
+          a {
+            font-size: 1.25rem;
+            line-height: 1.375;
+            font-weight: 800;
+            padding: 1rem 2rem;
+            display: inline-block;
+            margin: 1rem 0 0 0;
+            border-radius: 50px;
+          }
+          .stars {
+            display: flex;
+            align-items: center;
+            margin: 1.5rem 0;
+            justify-content: center;
+          }
+        }
+        .mid3 {
+          .star-holder {
+            position: relative;
+            @media(min-width:768px){
+              max-width: 640px;
+              margin: 0 auto;
+            }
+            margin-bottom: 1.5rem;
+            .divider {
+              display: none;
+              @media(min-width:768px){
+                display: flex;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                align-items: center;
+                &.left-divider {
+                  left: 0;
+                }
+                &.right-divider {
+                  right: 0;
+                }
+              }
+              hr {
+                width: 9rem;
+                border-top: 1px solid var(--white);
+                border-style: dashed;
+              }
+            }
+          }
+        }
+        .mid4 {
+          .feature-holder {
+            max-width: 24rem;
+            margin: 0 auto;
+            padding-top: 2rem;
+            .first {
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+              li {
+                flex: 0 0 auto;
+                width: 47%;
+                font-size: .875rem;
+                line-height: 1.25rem;
+                margin-bottom: 1.25rem;
+                text-align: left;
+                .feature {
+                  display: flex;
+                  justify-content: space-around;
+                  align-items: center;
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+  .bg {
+    display: none;
+    @media(min-width:1024px){
+      background: url("https://www.exterminatorspros.com/lp/assets/img/pestcontrol.jpg") no-repeat center;
+      z-index: 1;
+      position: absolute;
+      background-size: cover;
+      left: 2.5rem;
+      right: 2.5rem;
+      border-radius: 1rem;
+      width: auto;
+      top: 0;
+      width: auto;
+      height: 100%;
+      display: block;
     }
   }
 }

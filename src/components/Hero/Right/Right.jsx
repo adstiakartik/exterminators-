@@ -6,6 +6,28 @@ const Right = () => {
     <div className="main">
       <div className="container">
         <div className="row">
+          <div className="left col">
+            <div className="left-content bg-white text-align-center">
+              <img
+                src="https://www.exterminatorspros.com/lp/assets/img/pest-control-company.webp"
+                alt=""
+              />
+              <h3 className="left-content-headline"> We're Available Now</h3>
+
+              <p className="left-content-paragraph1">
+                Our Fully Trained Experts Are Ready to Help You. Call Now For
+                Your Risk-FREE Quote
+              </p>
+              <a href="#" className="left-content-paragraph2 strong bg-red white">
+                {" "}
+                (877) 846-0510
+              </a>
+              <p className="left-content-paragraph3">
+                <span className="strong">Delhi, DL</span> Pest Exterminator
+              </p>
+            </div>
+          </div>
+          <div className="right-content col">
           <section className="right black">
             <div className="right-heading">
               <h1 className="strong">
@@ -70,10 +92,43 @@ const Right = () => {
                     {" "}
                     <span className="strong">Wasp </span>Control
                   </li>
-                </ul>
-              </div>
-              <div className="right-list2">
-                <ul>
+                  <li>
+                    {" "}
+                    <span className="strong ">Bee </span>Control
+                  </li>
+
+                  <li>
+                    {" "}
+                    <span className="strong">Cockroach </span>Control
+                  </li>
+                  <li>
+                    {" "}
+                    <span className="strong">Earwig </span>Control
+                  </li>
+                  <li>
+                    {" "}
+                    <span className="strong">Gnat </span>Control
+                  </li>
+                  <li>
+                    {" "}
+                    <span className="strong">Mice </span>Control
+                  </li>
+                  <li>
+                    {" "}
+                    <span className="strong">Mosquito </span>Control
+                  </li>
+                  <li>
+                    {" "}
+                    <span className="strong">Rodent </span>Control
+                  </li>
+                  <li>
+                    {" "}
+                    <span className="strong">Spider </span>Control
+                  </li>
+                  <li>
+                    {" "}
+                    <span className="strong">Tick </span>Control
+                  </li>
                   <li>
                     {" "}
                     <span className="strong ">Bed Bug </span>Control
@@ -114,47 +169,6 @@ const Right = () => {
                   <li>
                     {" "}
                     <span className="strong">Wildlife </span>Control
-                  </li>
-                </ul>
-              </div>
-              <div className="right-list3">
-                <ul>
-                  <li>
-                    {" "}
-                    <span className="strong ">Bee </span>Control
-                  </li>
-
-                  <li>
-                    {" "}
-                    <span className="strong">Cockroach </span>Control
-                  </li>
-                  <li>
-                    {" "}
-                    <span className="strong">Earwig </span>Control
-                  </li>
-                  <li>
-                    {" "}
-                    <span className="strong">Gnat </span>Control
-                  </li>
-                  <li>
-                    {" "}
-                    <span className="strong">Mice </span>Control
-                  </li>
-                  <li>
-                    {" "}
-                    <span className="strong">Mosquito </span>Control
-                  </li>
-                  <li>
-                    {" "}
-                    <span className="strong">Rodent </span>Control
-                  </li>
-                  <li>
-                    {" "}
-                    <span className="strong">Spider </span>Control
-                  </li>
-                  <li>
-                    {" "}
-                    <span className="strong">Tick </span>Control
                   </li>
                 </ul>
               </div>
@@ -469,6 +483,7 @@ const Right = () => {
               </p>
             </div>
           </section>
+          </div>
         </div>
       </div>
     </div>
