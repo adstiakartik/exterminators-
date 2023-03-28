@@ -7,12 +7,12 @@ const Right = () => {
       <div className="container">
         <div className="row">
           <div className="left col">
-            <div className="left-content bg-white text-align-center">
+            <div className="left-content bg-white text-align-center black">
               <img
                 src="https://www.exterminatorspros.com/lp/assets/img/pest-control-company.webp"
                 alt=""
               />
-              <h3 className="left-content-headline"> We're Available Now</h3>
+              <h3 className="left-content-headline "> We're Available Now</h3>
 
               <p className="left-content-paragraph1">
                 Our Fully Trained Experts Are Ready to Help You. Call Now For
@@ -189,6 +189,9 @@ const Right = () => {
                   <div className="paragraph-content">
                     <ul>
                       <li className="strong red">
+                        <span class="checkbox-img red">
+                          <i class="icon icon-ok-squared"></i>
+                        </span>
                         Free, No-Obligation Estimates
                       </li>
                       <li className="second-li">
@@ -200,26 +203,36 @@ const Right = () => {
                     </ul>
                     <ul>
                       <li className="strong red">
-                        Free, No-Obligation Estimates
+                        <span class="checkbox-img red">
+                          <i class="icon icon-ok-squared"></i>
+                        </span>
+                        Flexible Service to Meet Your Needs
                       </li>
                       <li className="second-li">
-                        With Exterminators Pros, there are no charges or hidden
-                        fees. Before treatment, your exterminator will provide
-                        an up-front quote to detail the scope of work and
-                        pricing options, where relevant.
+                        We know your time is valuable — That's why we offer 24/7
+                        customer support, same-day service, and convenient
+                        appointment times that fit your schedule. Scheduling an
+                        exterminator is that quick and easy!
                       </li>
                     </ul>
                     <ul>
                       <li className="strong red">
-                        Free, No-Obligation Estimates
+                        <span class="checkbox-img red">
+                          <i class="icon icon-ok-squared"></i>
+                        </span>
+                        Guaranteed Pest Removal
                       </li>
                       <li className="second-li">
-                        With Exterminators Pros, there are no charges or hidden
-                        fees. Before treatment, your exterminator will provide
-                        an up-front quote to detail the scope of work and
-                        pricing options, where relevant.
+                        If you loathe the sight of creepy crawlies and don’t
+                        want them popping out from nowhere, we can help. Be it
+                        crawling critters, flying insects, rodents, or
+                        intimidating wildlife; we can handle them all. Our
+                        Exterminators Pros will create custom treatment plans to
+                        rid your home and yard free from pests all year long for
+                        your complete peace of mind.
                       </li>
                     </ul>
+                    <hr />
                   </div>
                 </div>
                 <div className="paragraph-2">
@@ -266,6 +279,32 @@ const Right = () => {
                     property for pest entry points. We inspect areas like the
                     following to make a proper diagnosis.
                   </p>
+                  <ul>
+                    <li>
+                      <i class="icon icon-ok-circled red"></i>Yard
+                    </li>
+                    <li>
+                      <i class="icon icon-ok-circled red"></i>Deck
+                    </li>
+                    <li>
+                      <i class="icon icon-ok-circled red"></i>Pool Areas
+                    </li>
+                    <li>
+                      <i class="icon icon-ok-circled red"></i>Windows
+                    </li>
+                    <li>
+                      <i class="icon icon-ok-circled red"></i>Doors
+                    </li>
+                    <li>
+                      <i class="icon icon-ok-circled red"></i>Pipes
+                    </li>
+                    <li>
+                      <i class="icon icon-ok-circled red"></i>Garages
+                    </li>
+                    <li>
+                      <i class="icon icon-ok-circled red"></i>Crawlspaces
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div className="paragraph">
@@ -357,6 +396,24 @@ const Right = () => {
                   <span className="strond red">(888) 123-1234 </span>to book
                   your inspection and get a risk-free, no-obligation quote.
                 </p>
+                <div className="poster bg-white">
+                  <p className="black">
+                    Very thorough and proffesional service. They came the same
+                    day I called and gave a free inspection and quote. Price was
+                    fair and reasonable and the treatment was done on the spot.
+                    5 days later and still no signs of bed bugs. Happy customer.
+                  </p>
+                  <div className="poster-foot">
+                    <h4 className="black">Christie Morgan</h4>
+                    <div class="stars yellow">
+                      <i class="icon icon-star"></i>
+                      <i class="icon icon-star"></i>
+                      <i class="icon icon-star"></i>
+                      <i class="icon icon-star"></i>
+                      <i class="icon icon-star"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             </section>
             <section className="right black">
@@ -376,7 +433,12 @@ const Right = () => {
                 <div className="right-list1"></div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Our 100% Satisfaction Guarantee</h2>
+                <h2 className="strond red">
+                  <span class="checkbox-img red">
+                    <i class="icon icon-ok-squared"></i>
+                  </span>
+                  Our 100% Satisfaction Guarantee
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     With our top-notch service and quality products, we know
@@ -387,6 +449,9 @@ const Right = () => {
               </div>
               <div className="paragraph">
                 <h2 className="strond red">
+                  <span class="checkbox-img red">
+                    <i class="icon icon-ok-squared"></i>
+                  </span>
                   There is No Pest We Cannot Handle
                 </h2>
                 <div className="paragraph-2">
@@ -398,7 +463,12 @@ const Right = () => {
                 </div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Your Local Pest Exterminator</h2>
+                <h2 className="strond red">
+                  <span class="checkbox-img red">
+                    <i class="icon icon-ok-squared"></i>
+                  </span>
+                  Your Local Pest Exterminator
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     We are located throughout New South Wales, so if you live

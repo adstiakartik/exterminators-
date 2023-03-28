@@ -7,9 +7,7 @@ const Hero = () => {
   return (
     <div className="bg-blue hero-content">
       <Mid />
-      <div>
-        <Right />
-      </div>
+      <Right />
     </div>
   );
 };

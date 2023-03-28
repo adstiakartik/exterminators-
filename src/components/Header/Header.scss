@@ -11,15 +11,15 @@ nav {
       justify-content: space-around;
       align-items: center;
       margin: 0;
-      height: 4rem;
+      height: 5rem;
       .left-header {
         display: flex;
         align-items: center;
         h2 {
           //border-right: 2px solid var(--grey);
-          @media(min-width:768px) {
+          @media (min-width: 768px) {
             border-right: 2px solid var(--grey);
-            font-size: 1.125rem;
+            font-size: 1.3rem;
             line-height: 1.375;
           }
           padding-right: 1rem;
@@ -28,14 +28,13 @@ nav {
         }
         p {
           padding: 0 1rem;
-          display: none;
-          @media(min-width:768px) {
+          @media (min-width: 768px) {
             display: block;
             padding-top: 0.25rem;
             padding-bottom: 0.25rem;
             padding-left: 1rem;
             margin-left: 1rem;
-            font-size: .875rem;
+            font-size: 0.875rem;
           }
         }
       }
@@ -47,7 +46,7 @@ nav {
         }
         a {
           font-size: 1rem;
-          @media (min-width:768px) {
+          @media (min-width: 768px) {
             font-size: 1.125rem;
             line-height: 1.375;
           }
