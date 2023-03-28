@@ -11,16 +11,24 @@ nav {
       justify-content: space-around;
       align-items: center;
       margin: 0;
-      height: 4rem;
+      height: 5rem;
       .left-header {
         display: flex;
         align-items: center;
-        h2 {
+
+    
+
+        img{
+          padding: 0 .5rem;
+        }
+        
+        div{
           //border-right: 2px solid var(--grey);
           @media(min-width:768px) {
             border-right: 2px solid var(--grey);
             font-size: 1.125rem;
             line-height: 1.375;
+            font-weight: 800;
           }
           padding-right: 1rem;
           font-size: 1rem;
@@ -44,12 +52,16 @@ nav {
         p {
           padding: 0 1rem;
           display: none;
+          @media (min-width:768px) {
+            display: block;
+          }
         }
         a {
           font-size: 1rem;
           @media (min-width:768px) {
             font-size: 1.125rem;
             line-height: 1.375;
+            border-bottom: #d01b34 1px solid;
           }
         }
       }

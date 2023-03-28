@@ -7,7 +7,7 @@ const Right = () => {
       <div className="container">
         <div className="row">
           <div className="left col">
-            <div className="left-content bg-white text-align-center">
+            <div className="left-content soft-black bg-white text-align-center">
               <img
                 src="https://www.exterminatorspros.com/lp/assets/img/pest-control-company.webp"
                 alt=""
@@ -20,6 +20,7 @@ const Right = () => {
               </p>
               <a href="#" className="left-content-paragraph2 strong bg-red white">
                 {" "}
+                <i className="icon icon-phone">&#xe800;</i> 
                 (877) 846-0510
               </a>
               <p className="left-content-paragraph3">
@@ -229,6 +230,8 @@ const Right = () => {
                 <img
                   src="https://www.exterminatorspros.com/lp/assets/img/exterminator-near-me.webp"
                   alt=""
+                  className=""
+               
                 />
               </div>
             </div>

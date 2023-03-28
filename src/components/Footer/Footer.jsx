@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Footer.scss";
 
 const Footer = () => {
@@ -23,6 +24,7 @@ const Footer = () => {
           contractors listed on Exterminators Pros.
         </p>
       </div>
+     
     </div>
   );
 };

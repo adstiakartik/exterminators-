@@ -1,13 +1,15 @@
 import React from "react";
 import "./Header.scss";
+import Img from "../../assets/logo.png"
 
 const Header = () => {
   return (
-    <nav className="bg-white">
+    <nav className="bg-white shadow">
       <div className="container white">
         <div className="row">
           <div className="left-header">
-              <h2 className="black strong ">Exterminators Pros</h2>
+              <img src={Img}/>
+              <div className="black  ">Exterminators Pros</div>
               <p className="black  ">Pune, MH</p>
             </div>
             <div className="right-header">

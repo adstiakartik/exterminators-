@@ -8,8 +8,10 @@
   --grey: #dbdbdd;
   --green: #354a55;
   --yellow : #facc15;
+  --soft-black: #354A55;
   scroll-behavior: smooth;
 }
+
 @font-face{font-family:'fontello';src:url("assets/fonts/fontello.eot");src:url("assets/fonts/fontello.eot?31286851#iefix") format("embedded-opentype"),url(assets/fonts/fontello.woff?31286851) format("woff"),url(assets/fonts/fontello.woff2) format("woff2"),url(assets/fonts/fontello.ttf?31286851) format("truetype"),url("assets/fonts/fontello.svg?31286851#fontello") format("svg");font-weight:400;font-style:normal}
 *,
 :after,
@@ -73,6 +75,16 @@ a {
 .bg-yellow {
   background-color: var(--yellow);
 }
+.soft-black{
+  color: var(--soft-black);
+}
+.bg-soft-black{
+  background-color: var(--soft-black);
+}
+.shadow{
+  box-shadow: 0 3px 40px rgba(0,0,0,.1);
+}
+
 img {
   max-width: 100%;
 }
