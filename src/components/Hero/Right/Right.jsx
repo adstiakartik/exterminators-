@@ -349,6 +349,7 @@ const Right = () => {
               <div className="right-list">
                 <div className="right-list1"></div>
               </div>
+
               <div className="paragraph">
                 <h2 className="strond red">Discussion</h2>
                 <div className="paragraph-2">
