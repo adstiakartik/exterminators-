@@ -13,7 +13,12 @@ const Cta = () => {
               For Fast & Easy, Same-Day Service <br />
               CALL NOW to Get Rid of Those Pesky Pests Today!
             </p>
-            <p className="cta-btn bg-red">(877) 846-0510</p>
+            <p className="cta-btn bg-red">
+              <span>
+                <i className="icon icon-phone">&#xe800;</i>{" "}
+              </span>
+              (877) 846-0510
+            </p>
           </div>
           <ul className="first">
             <li>

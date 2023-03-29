@@ -236,7 +236,7 @@ const Right = () => {
                   </div>
                 </div>
                 <div className="paragraph-2">
-                  <p className="">
+                  <p className="img-paragraph-2">
                     Want to talk to an expert? Our team is here for you and will
                     answer all your questions. Give us a call today on{" "}
                     <span className="strong red"> (877) 846-0510</span>
@@ -534,9 +534,10 @@ const Right = () => {
                 </h2>
                 <div className="paragraph-2">
                   <p className="">
-                    Simply dial (877) 846-0510 to have one on one access to our
-                    skilled professionals. Ask them anything, and feel free
-                    while doing so!
+                    Simply dial{" "}
+                    <span className="strong red">(877) 846-0510</span> to have
+                    one on one access to our skilled professionals. Ask them
+                    anything, and feel free while doing so!
                   </p>
                 </div>
               </div>
