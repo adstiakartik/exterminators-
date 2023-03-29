@@ -4,17 +4,19 @@
     font-size: medium;
     .paragraph-1 {
       .paragraph-head {
-        .paragraph-content {
-          ul {
-            .second-li {
-              list-style-type: none;
-            }
+      }
+      .paragraph-content {
+        ul {
+          .second-li {
+            list-style-type: none;
+            padding-left: 24px;
           }
         }
       }
     }
   }
   .paragraph-2 {
+    padding-left: 35px;
     .poster {
       padding: 1.5rem;
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
