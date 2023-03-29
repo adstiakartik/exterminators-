@@ -327,13 +327,13 @@ const Right = () => {
                     post-treatment to guard against further infestations.
                   </p>
                 </div>
-              </div>
-              <div className="paragraph-2">
-                <p>
-                  Rid your home and yard of pests today! Call us now at{" "}
-                  <span className="strond red">(888) 123-1234 </span>to book
-                  your inspection and get a risk-free, no-obligation quote.
-                </p>
+                <div className="paragraph-2">
+                  <p>
+                    Rid your home and yard of pests today! Call us now at{" "}
+                    <span className="strond red">(888) 123-1234 </span>to book
+                    your inspection and get a risk-free, no-obligation quote.
+                  </p>
+                </div>
               </div>
             </section>
             <section className="right black">
@@ -479,16 +479,15 @@ const Right = () => {
                     job done quickly, efficiently, and reliably.
                   </p>
                 </div>
-              </div>
-
-              <div className="paragraph-2">
-                <p>
-                  Want to talk to an expert? Our team is here for you and will
-                  answer all your questions. Give us a call today on{" "}
-                  <span className="strond red">(888) 123-1234 </span>
-                  to book your inspection and get a risk-free, no-obligation
-                  quote.
-                </p>
+                <div className="paragraph-2">
+                  <p>
+                    Want to talk to an expert? Our team is here for you and will
+                    answer all your questions. Give us a call today on{" "}
+                    <span className="strond red">(888) 123-1234 </span>
+                    to book your inspection and get a risk-free, no-obligation
+                    quote.
+                  </p>
+                </div>
               </div>
             </section>
             <section className="right black">
@@ -548,15 +547,15 @@ const Right = () => {
                     post-treatment to guard against further infestations.
                   </p>
                 </div>
-              </div>
-              <div className="paragraph-2">
-                <p>
-                  Pest Worry? No Worries! We can help you today. Call
-                  Exterminators Pros today at (877) 846-0510 to access one of
-                  our team which is local to you in Pune, MH.
-                  <span className="strond red">(888) 123-1234 </span>to book
-                  your inspection and get a risk-free, no-obligation quote.
-                </p>
+                <div className="paragraph-2">
+                  <p>
+                    Pest Worry? No Worries! We can help you today. Call
+                    Exterminators Pros today at (877) 846-0510 to access one of
+                    our team which is local to you in Pune, MH.
+                    <span className="strond red">(888) 123-1234 </span>to book
+                    your inspection and get a risk-free, no-obligation quote.
+                  </p>
+                </div>
               </div>
             </section>
           </div>
