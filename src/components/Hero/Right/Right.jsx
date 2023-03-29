@@ -262,7 +262,9 @@ const Right = () => {
                 <div className="right-list1"></div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Discussion</h2>
+                <h2 className="strond red">
+                  <span className="span-number">1</span>&nbsp;Discussion
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     The first thing we do is have a chat with you about what
@@ -272,7 +274,10 @@ const Right = () => {
                 </div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">External & Internal Inspection</h2>
+                <h2 className="strond red">
+                  <span className="span-number">2</span>&nbsp;External &
+                  Internal Inspection
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     We will not leave any stone unturned when inspecting your
@@ -308,7 +313,10 @@ const Right = () => {
                 </div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Treatment & Eradication</h2>
+                <h2 className="strond red">
+                  <span className="span-number">3</span>&nbsp;Treatment &
+                  Eradication
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     Once we detect the source of your pest issues, we then
@@ -318,7 +326,10 @@ const Right = () => {
                 </div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Follow Up & Prevention</h2>
+                <h2 className="strond red">
+                  <span className="span-number">4</span>&nbsp;Follow Up &
+                  Prevention
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     We don’t just hit and run. We’re professionals, so we ensure
@@ -351,7 +362,9 @@ const Right = () => {
               </div>
 
               <div className="paragraph">
-                <h2 className="strond red">Discussion</h2>
+                <h2 className="strond red">
+                  <span className="span-number">1</span>&nbsp;Discussion
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     The first thing we do is have a chat with you about what
@@ -361,7 +374,10 @@ const Right = () => {
                 </div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">External & Internal Inspection</h2>
+                <h2 className="strond red">
+                  <span className="span-number">2</span>&nbsp;External &
+                  Internal Inspection
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     We will not leave any stone unturned when inspecting your
@@ -371,7 +387,10 @@ const Right = () => {
                 </div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Treatment & Eradication</h2>
+                <h2 className="strond red">
+                  <span className="span-number">3</span>&nbsp;Treatment &
+                  Eradication
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     Once we detect the source of your pest issues, we then
@@ -381,7 +400,10 @@ const Right = () => {
                 </div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Follow Up & Prevention</h2>
+                <h2 className="strond red">
+                  <span className="span-number">4</span>&nbsp;Follow Up &
+                  Prevention
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     We don’t just hit and run. We’re professionals, so we ensure
@@ -506,7 +528,10 @@ const Right = () => {
                 <div className="right-list1"></div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Call Our Friendly Team</h2>
+                <h2 className="strond red">
+                  <span className="span-number">1</span>&nbsp;Call Our Friendly
+                  Team
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     Simply dial (877) 846-0510 to have one on one access to our
@@ -516,7 +541,10 @@ const Right = () => {
                 </div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Book Your Inspection Next</h2>
+                <h2 className="strond red">
+                  <span className="span-number">2</span>&nbsp;Book Your
+                  Inspection Next
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     It’s as easy as picking up the phone to ask for help. We
@@ -527,7 +555,8 @@ const Right = () => {
               </div>
               <div className="paragraph">
                 <h2 className="strond red">
-                  Make the Decision and Take that First Step
+                  <span className="span-number">3</span>&nbsp; Make the Decision
+                  and Take that First
                 </h2>
                 <div className="paragraph-2">
                   <p className="">
@@ -538,7 +567,10 @@ const Right = () => {
                 </div>
               </div>
               <div className="paragraph">
-                <h2 className="strond red">Follow Up & Prevention</h2>
+                <h2 className="strond red">
+                  <span className="span-number">4</span>&nbsp;Follow Up &
+                  Prevention
+                </h2>
                 <div className="paragraph-2">
                   <p className="">
                     We don’t just hit and run. We’re professionals, so we ensure
