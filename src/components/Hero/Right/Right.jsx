@@ -567,28 +567,16 @@ const Right = () => {
                   </p>
                 </div>
               </div>
-              <div className="paragraph">
-                <h2 className="strond red">
-                  <span className="span-number">4</span>&nbsp;Follow Up &
-                  Prevention
-                </h2>
-                <div className="paragraph-2">
-                  <p className="">
-                    We don’t just hit and run. We’re professionals, so we ensure
-                    that our work actually lasts. We do this by providing a
-                    follow-up inspection, and if required, we conduct a
-                    post-treatment to guard against further infestations.
-                  </p>
-                </div>
-                <div className="paragraph-2">
-                  <p>
-                    Pest Worry? No Worries! We can help you today. Call
-                    Exterminators Pros today at (877) 846-0510 to access one of
-                    our team which is local to you in Pune, MH.
-                    <span className="strond red">(888) 123-1234 </span>to book
-                    your inspection and get a risk-free, no-obligation quote.
-                  </p>
-                </div>
+              <div className="paragraph"></div>
+              <hr />
+              <div className="paragraph-2">
+                <p>
+                  Pest Worry? No Worries! We can help you today. Call
+                  Exterminators Pros today at (877) 846-0510 to access one of
+                  our team which is local to you in Pune, MH.
+                  <span className="strond red">(888) 123-1234 </span>to book
+                  your inspection and get a risk-free, no-obligation quote.
+                </p>
               </div>
             </section>
           </div>
