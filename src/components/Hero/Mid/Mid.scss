@@ -110,7 +110,7 @@
         }
         .mid4 {
           .feature-holder {
-            max-width: 24rem;
+            max-width: 64rem;
             margin: 0 auto;
             padding-top: 2rem;
             .first {
@@ -126,6 +126,9 @@
                 line-height: 1.25rem;
                 margin-bottom: 1.25rem;
                 text-align: left;
+                @media (min-width: 768px) {
+                  width: 20%;
+                }
                 .feature {
                   display: flex;
                   justify-content: space-around;
